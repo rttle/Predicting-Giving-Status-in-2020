@@ -41,7 +41,7 @@ This project takes constituent, donor and friends of an organization, informatio
 
 
 ### Data Visualization
-The figure below is a summary table of the dataset. Note that the categorical/numerical classification is initial determinations and changed as a better understanding of the dataset was reached. These initial determinations were made by setting definitions through use of functions. This table does include columns from the engagement table despite not being used in the final dataset.
+The figure below is a summary table of the dataset. Note that the categorical/numerical classification is initial determinations and changed as a better understanding of the dataset was reached. These initial determinations were made by setting definitions through use of functions. This table does include columns from the engagement table despite not being used in the final dataset. In particular, this table shows how much missing values there are in the engagmement table seen in the middle starting with 'last_contact' and ending with 'interests.'
 
 <img width="600" alt="Screenshot 2025-07-06 at 11 46 04 AM" src="https://github.com/user-attachments/assets/2652de04-22e8-433d-afc5-f8842c927c2b" />
  
