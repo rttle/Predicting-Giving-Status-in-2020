@@ -128,4 +128,3 @@ Data is from the APRA Data Science Course. https://github.com/majerus/apra_data_
 
 ## Citations
 -APRA, *APRA Data Science Courses *, WWW.GITHUB.COM, Jun. 10, 2020, https://github.com/majerus/apra_data_science_courses.
-![image](https://github.com/user-attachments/assets/e255f7f5-636c-495e-b963-0164a8d2eab3)
