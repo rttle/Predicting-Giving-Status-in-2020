@@ -21,7 +21,7 @@ This project takes constituent, donor and friends of an organization, informatio
 - Instances (Train, Test, Validation Split): 
   - Train: 70,000 constituents (70%)
   - Test: 30,000 constituents (30%)
-  - Validation: Cross-Validation on Train set
+  - Validation: Cross-Validation incorporated through use of Grid Search (5 fold cross-validation).
 
 
  
