@@ -32,7 +32,7 @@ This project takes constituent, donor and friends of an organization, informatio
 
 **Outliers.** Outliers were mainly addressed by categorizing numerical columns. 
 
-**Feature Engineering.** Significant feature engineering was done to aggregate the giving data provided. Aggregation was grouped by an individual constituents, and new columns were made to summarize an individual constituent’s giving history (Number of Hard/Soft Credit gifts, Median/Mean Time between Gifts, Average Gift Amount). The target variable, Give in 2020, was also created through feature engineering based on Gift Date in the giving table. Constituent biographical information also had feature engineering, in particular age was calculated using the constituent’s birthday, along with pulling out the constituent’s birthday month.
+**Feature Engineering.** Significant feature engineering was done to aggregate the giving data provided. Aggregation was grouped by an individual constituents, and new columns were made to summarize an individual constituent’s giving history (Number of Hard/Soft Credit gifts, Median/Mean Time between Gifts, Average Gift Amount). The aggregated features from the giving table were calculated after the 2020 giving data was already removed; this was to prevent accidentally encoding the target into any of these features. The target variable, Give in 2020, was also created through feature engineering based on Gift Date in the giving table. Constituent biographical information also had feature engineering, in particular age was calculated using the constituent’s birthday, along with pulling out the constituent’s birthday month.
 
 **Encoding.** One Hot Encoding had to be done in preparation for training the machine learning algorithms.
 
